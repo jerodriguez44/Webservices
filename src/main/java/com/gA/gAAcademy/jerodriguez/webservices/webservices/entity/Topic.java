@@ -32,7 +32,16 @@ public class Topic {
 	
 	public Topic () {}
 	
+	public Topic ( int author, String description, String title ) {
+	super();
+	this.title = title;
+	Date d = new Date();
+	this.datePost  = d;
+	this.description = description;
+	this.author = author;
 	
+	
+	}
 	public String getTitle() {
 		return title;
 	}
